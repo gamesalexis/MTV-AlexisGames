@@ -9,5 +9,9 @@ def familiaresModel(request):
     papa.save()
     mama.save()
     hijo.save()
-    texto=f"hola mundo"
-    return HttpResponse(texto)
+    return render (request, "vista.html")
+    
+    
+    
+    #texto=f"hola mundo"
+    #return HttpResponse(texto)
